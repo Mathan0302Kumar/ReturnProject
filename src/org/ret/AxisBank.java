@@ -15,8 +15,9 @@ private void Fixed(int a,int b,int c) {
 
 public static void main(String[] args) {
 	AxisBank nm = new AxisBank();
-	nm.Fixed(10, 20, 30);
+	nm.Fixed(40, 60, 30);
 	System.out.println("My instance value is:"+nm.a);
+	System.out.println(nm.a);
 	
 }
 
