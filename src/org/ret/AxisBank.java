@@ -3,18 +3,21 @@ package org.ret;
 public class AxisBank {
 	
 	int a= 10;
+
+private void Fixed(int a,int b,int c) {
 	
-	private void savings(int a, int b) {
-		int c=0;
-		c=a+b;
-		System.out.println(c);
-		
-	}
-	public static void main(String[] args) {
-		AxisBank mn = new AxisBank();
-		mn.savings(20, 30);
-	}
+	int d=0;
+	d=a+b+c;
+	
+	System.out.println("My value is :"+d);
 
+}
 
+public static void main(String[] args) {
+	AxisBank nm = new AxisBank();
+	nm.Fixed(10, 20, 30);
+	System.out.println("My instance value is:"+nm.a);
+	
+}
 
 }
